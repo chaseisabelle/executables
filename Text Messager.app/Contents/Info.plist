@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>CFBundleName</key>
+	<string>Text Messager</string>
+	<key>CFBundleIdentifier</key>
+	<string>Text Messager</string>
+	<key>CFBundleVersion</key>
+	<string>1.0 (Beta)</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<string>true</string>
+	<key>CFBundleExecutable</key>
+	<string>JavaApplicationStub</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0 (Beta)</string>
+	<key>CFBundleSignature</key>
+	<string>Text Messager</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Text Messager</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleIconFile</key>
+	<string>phone.icns</string>
+	<key>Java</key>
+	<dict>
+		<key>MainClass</key>
+		<string>textMessager.mainFrame</string>
+		<key>JVMVersion</key>
+		<string>1.5*</string>
+		<key>ClassPath</key>
+			<array>
+			<string>$JAVAROOT/TextMessager.jar</string>
+			<string>$JAVAROOT/AbsoluteLayout.jar</string>
+			<string>$JAVAROOT/swing-layout-1.0.3.jar</string>
+			</array>
+		<key>Properties</key>
+		<dict>
+			<key>apple.laf.useScreenMenuBar</key>
+			<string>true</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
